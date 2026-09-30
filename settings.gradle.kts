@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "25172022054_mad_practical3"
+rootProject.name = "062_Prac3"
 include(":app")
  

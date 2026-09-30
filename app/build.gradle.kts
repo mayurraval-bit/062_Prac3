@@ -3,15 +3,17 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a25172022054_mad_practical3"
+    namespace = "com.example.a062_Prac3"
     compileSdk {
-        version = release(37)
+        version = release(36) {
+            minorApiLevel = 1
+        }
     }
 
     defaultConfig {
-        applicationId = "com.example.a25172022054_mad_practical3"
+        applicationId = "com.example.a062_Prac3"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
